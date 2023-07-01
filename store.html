@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="/job_freak/store.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="d-flex align-items-start">
+        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"
+                type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+            <button class="nav-link" id="v-pills-contact-tab" data-bs-toggle="pill" data-bs-target="#v-contact"
+                type="button" role="tab" aria-controls="v-pills-contact" aria-selected="false">Contact</button>
+            <button class="nav-link" id="v-pills-information-tab" data-bs-toggle="pill"
+                data-bs-target="#v-pills-information" type="button" role="tab" aria-controls="v-pills-information"
+                aria-selected="false">Information</button>
+            <button class="nav-link" id="v-pills-guide-tab" data-bs-toggle="pill" data-bs-target="#v-pills-guide"
+                type="button" role="tab" aria-controls="v-pills-guide" aria-selected="false">Guide</button>
+        </div>
+        <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"
+                tabindex="0">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/job_freak/delicious-indian-dosa-assortment.jpg" class="d-block w-100 " alt="..."
+                                style="height: 30%;">
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="v-pills-contact" role="tabpanel" aria-labelledby="v-pills-contact-tab"
+                tabindex="0">
+                <form action="#">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name :</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Phone Number :</label>
+                        <input type="tel" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"> Concerned about:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="tab-pane fade" id="v-pills-information" role="tabpanel"
+                aria-labelledby="v-pills-information-tab" tabindex="0">
+                <p>Mangalorean cuisine is known for its distinct flavors and the use of fresh ingredients, predominantly
+                    seafood and coconut. Here are some popular Mangalorean dishes you can explore:<br>
+
+                    1. Neer Dosa: Thin, delicate rice crepes made from a batter of rice and water. Neer dosa is
+                    typically served with coconut chutney, sambar, or a spicy curry.<br>
+
+                    2. Mangalorean Fish Curry: A tangy and spicy curry made with a variety of fish, coconut milk,
+                    tamarind, and a blend of aromatic spices like coriander, cumin, and fenugreek.<br>
+
+                    3. Kori Rotti: A classic Mangalorean dish consisting of chicken curry served with crispy, thin
+                    wafers called rottis. The rottis are made by soaking crisp rice wafers in a spicy chicken curry.<br>
+
+                    4. Ghee Roast: A fiery and flavorful dish where chicken, fish, or prawns are marinated in a mixture
+                    of spices, cooked in ghee (clarified butter), and roasted until golden and aromatic.<br>
+
+                    5. Mangalore Buns: Soft and fluffy deep-fried bread made from a dough of mashed bananas, flour, and
+                    yogurt. Mangalore buns are often enjoyed with coconut chutney or a spicy curry.<br>
+
+                    6. Mangalorean Prawn Curry: A luscious curry made with succulent prawns, coconut milk, tamarind, and
+                    a blend of spices. It is often served with steamed rice or neer dosa.<br>
+
+                    7. Chicken Ghee Roast: A popular and spicy Mangalorean dish where chicken is cooked with a generous
+                    amount of ghee, along with a mix of roasted spices and tangy tamarind.<br>
+
+                    8. Patrode: A unique dish made by rolling spiced colocasia leaves into a cylindrical shape, steaming
+                    them, and then shallow frying them. Patrode is often served as a side dish or a snack.<br>
+
+                    9. Kori Sukka: A dry chicken dish cooked with a blend of roasted spices, grated coconut, and a touch
+                    of tamarind for tanginess. It is often enjoyed with neer dosa or rice.<br>
+
+                    10. Mangalorean Crab Curry: A delectable curry made with fresh crabs, coconut, and a flavorful spice
+                    blend. The curry is known for its rich and creamy texture.<br>
+
+                    These are just a few examples of the delicious dishes you can find in Mangalorean cuisine. Each dish
+                    is a reflection of the region's culinary heritage and is sure to tantalize your taste buds with its
+                    unique flavors.</p>
+            </div>
+            <div class="tab-pane fade" id="v-pills-guide" role="tabpanel" aria-labelledby="v-pills-guide-tab"
+                tabindex="0">
+                <p>If you have any interest in having mangalorian food then please do contact us using our contact page .<br>
+                    We will forward you all the further details.<br>
+                    Thank You . Keep Shopping!!
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
